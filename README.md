@@ -17,3 +17,13 @@ Significant segments are visualized on the fiber bundle, highlighting regions po
 This method demonstrates enhanced sensitivity for early, localized structural changes and offers promising insights for biomarker discovery in TBI and PTE research.
 
 <img width="691" alt="Screen Shot 2025-01-16 at 9 49 30 PM" src="https://github.com/user-attachments/assets/b566226e-3680-41de-a65b-13b87a30fa27" />
+
+Workflow Summary
+Extract Vertices: extract.py
+Compute Averages: averageVertices.py
+Perform Quality Control: qc.py
+Resample and Average VTK: avgVT.py
+Stack and Resample Vertices: stack.py
+Visualize Fiber Bundle: visualize.py
+Convert CSV to VTK: vtkConvert.py
+By following this sequence, you can process raw VTK files into actionable results, including statistical analysis and 3D visualization.
